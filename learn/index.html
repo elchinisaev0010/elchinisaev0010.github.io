@@ -7,30 +7,66 @@
 </head>
 <body>
 <section>
-	<div class="Start">
-		<h1>
-			Привет,меня зовут Элчишка как говорит мама-Беляшек и я как ни как хочу стать Фулстак <br> 	Веб Разработчиком. <br>
-			Так-что  сейчас я учу JS и сейчас я буду демонстрировать свои навыки. <br>
-			Особо украшать не буду,т.к это всеголишь показатель изучения моего JS.
-		</h1>
-	</div>
+	
 	<div>
 		<p>
 			В данном примере я покажу,как при нажатии на слово,вызвается Пуш-Уведомление
 		</p>
 		<p  onclick="alert('Привет зай,у нас с тобой уже очень многое за спиной,и я уверен,что мы справимся со всеми проблемами-вместе. Я тебя очень сильно люблю и сделаю тебя и нашего малыша счастливыми');">НАЖМИ</p>
 		<p onclick="alert('Жора,ты мой лучший друг,в последнее время у нас сложно с тобой,но я постараюсь сделать так-чтоб наша с тобой дружба была,крепка.')">ДЛЯ ЛУЧШЕГО ДРУГА.</p>
-
-
-	</div>
-		
+	<!-- </div>Онклик -->
 </section>
 
 
 
 
+<!-- CSS Гинератор -->
+<div class="block1">
+	<p>Верхний левый угол:
+		<input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
+		<input type="text" id="ttl" value="0">
+	</p>
+
+	<p>Верхний правый угол:
+		<input type="range" id="rtr" min="0" max="100" value="0" oninput="fun1()" >
+		<input type="text" id="ttr" value="0"> 
+	</p>
+
+	<p>Нижний правый угол:
+		<input type="range" id="rbr" min="0" max="100" value="0"  oninput="fun1()">
+		<input type="text" id="tbr" value="0">
+	</p>
+
+	<p>Нижний левый угол:
+		<input type="range" id="rbl" min="0" max="100" value="0"  oninput="fun1()">
+		<input type="text" id="tbl" value="0">
+	</p>
+</div>
+<div id="block">
+	
+</div>
 
 
-	<script src="JS/script.js"></script>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
 </body>
+
+
+<script src="JS/script.js"></script>
+
 </html>
